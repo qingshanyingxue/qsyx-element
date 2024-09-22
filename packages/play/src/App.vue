@@ -3,7 +3,7 @@
 
 <template>
   <div>
-<qsyx-button/>
+<qsyx-button type="primary" size="small">123123</qsyx-button>
   </div>
 </template>
 

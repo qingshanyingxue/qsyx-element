@@ -1,6 +1,5 @@
 import Button from "./Button.vue";
+import ButtonGroup from "./ButtonGroup.vue";
 import { withInstall } from "@qsyx-element/utils";
-console.log("withInstall",withInstall);
-
 export const QsyxButton = withInstall(Button);
-console.log("QsyxButton",QsyxButton);
+export const QsyxButtonGroup = withInstall(ButtonGroup);

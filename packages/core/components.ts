@@ -1,6 +1,6 @@
 // components.ts
 
-import { QsyxButton } from "@qsyx-element/components";
-import type { Plugin } from "vue";
+import { QsyxButton,QsyxButtonGroup,QsyxIcon} from "@qsyx-element/components";
+import {  } from "@qsyx-element/components";
 
-export default [QsyxButton] as Plugin[];
+export default [QsyxButton,QsyxButtonGroup,QsyxIcon] as Plugin[];
