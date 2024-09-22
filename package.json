@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter @qsyx-element/play dev"
+    "dev": "pnpm --filter @qsyx-element/play dev",
+    "docs:dev":"pnpm --filter @qsyx-element/docs dev",
+    "docs:build":"pnpm --filter @qsyx-element/docs build",
+    "test":"echo 'todo"
   },
   "keywords": [],
   "author": "",
